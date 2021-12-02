@@ -1,0 +1,115 @@
+:root {
+  --nav-txt-color: #9c9c9c;
+  --body-bgr: #ffffff;
+  --color-black: #000;
+  --color-white: #ffffff;
+  --color-primary: #54de7e;
+  --color-secondary: #0e132d;
+  --color-snow: #cbcdd8;
+  --color-red: #ff4040;
+  --color-orange: #ff702c;
+  --color-blue: #4a8cfd;
+  --color-yellow: #fa9905;
+  --color-green: #41bd83;
+  --color-text: #9498ac;
+  --color-comment: #5d6072;
+  --color-pink: #ff59a2;
+  --color-turquoise: #20bbd3;
+  --color-purple: #a659ff;
+  --bg-black: #000;
+  --bg-white: #fff;
+  --bg-primary: #556fff;
+  --bg-secondary: #0e132d;
+  --bg-snow: #f7f7f8;
+  --bg-red: #ff4040;
+  --bg-orange: #ff702c;
+  --bg-blue: #53a7f9;
+  --bg-yellow: #fa9905;
+  --bg-green: #41bd83;
+  --bg-purple: #a659ff;
+  --bg-pink: #ff59a2;
+  --bg-turquoise: #20bbd3;
+  --border-black: #000;
+  --border-white: #fff;
+  --border-primary: #556fff;
+  --border-secondary: #0e132d;
+  --border-snow: #efeff6;
+  --border-red: #ff4040;
+  --border-orange: #ff702c;
+  --border-blue: #4a8cfd;
+  --border-yellow: #fa9905;
+  --border-green: #41bd83;
+  --border-input: #efeff6;
+  --color-android: #a4c639;
+  --color-clarity: #61bed9;
+  --color-dribbble: #ea4c89;
+  --color-foursquare: #f94877;
+  --color-google-plus: #db4437;
+  --color-instagram: #c32aa3;
+  --color-mastodon: #2b90d9;
+  --color-periscope: #40a4c4;
+  --color-quora: #aa2200;
+  --color-slack: #4a154b;
+  --color-soundcloud: #ff5500;
+  --color-stumbleupon: #e94826;
+  --color-tiktok: #010101;
+  --color-twitter: #1da1f2;
+  --color-vk: #4a76a8;
+  --color-yelp: #d32323;
+  --color-alexa: #00a7ce;
+  --color-deviantArt: #05cc47;
+  --color-facebook: #1877f2;
+  --color-linkedin: #007bb5;
+  --color-medium: #02b875;
+  --color-pinterest: #bd081c;
+  --color-reddit: #ff4500;
+  --color-slideshare: #e68523;
+  --color-spotify: #1ed760;
+  --color-tumblr: #35465d;
+  --color-vimeo: #1ab7ea;
+  --color-whatsapp: #25d366;
+  --color-youtube: #ff0000;
+  --color-amazon: #ff9900;
+  --color-apple: #000000;
+  --color-flickr: #f40083;
+  --color-google: #4285f4;
+  --color-houzz: #4dbc15;
+  --color-microsoft: #f35022;
+  --color-skype: #0078d7;
+  --color-snapchat: #fffc00;
+  --color-telegram: #0088cc;
+  --color-behance: #0056ff;
+}
+/* Uses vh and vm with calc */
+@media screen and (min-width: 16em) {
+  html {
+    font-size: calc(10px + (16 - 10) * (100vh - 480px) / (1024 - 320)) !important;
+  }
+  .leadTitle {
+    font-size: calc(10px + (16 - 10) * (100vh - 480px) / (1024 - 320)) !important;
+  }
+}
+@media screen and (min-width: 25em) {
+  html {
+    font-size: calc(10px + (24 - 10) * (100vh - 480px) / 1024) !important;
+  }
+}
+html {
+  background-color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 15px !important;
+}
+
+body {
+  font-weight: 400;
+  font-family: Roboto, sans-serif, serif !important;
+  word-break: break-word;
+  letter-spacing: normal;
+}
+
+
